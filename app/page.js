@@ -7,9 +7,9 @@ export default function Page() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    { src: "/1.svg", alt: "Group 45" },
-    { src: "/Group.svg", alt: "Group 46" },
-    { src: "/groupone.svg", alt: "Group 47" },
+    { src: "/1.svg", alt: "image1" },
+    { src: "/Group.svg", alt: "image2" },
+    { src: "/groupone.svg", alt: "image3" },
   ];
 
   useEffect(() => {
